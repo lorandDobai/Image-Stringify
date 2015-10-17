@@ -7,7 +7,7 @@ def make_bitpic(img,string_generator,scale=16,font_size=40,compression=2,spacing
     canvas = ImageDraw.Draw(draw_img)
     
     pixels = img.load()
-    f = ImageFont.truetype("arial.ttf",font_size)
+    f = ImageFont.truetype("Fonts/arial.ttf",font_size)
     canvas.fontmode = "1"
   
     for i in range(0,height,compression):

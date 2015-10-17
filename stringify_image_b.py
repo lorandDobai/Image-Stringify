@@ -8,7 +8,7 @@ def make_blank_bitpic(img,string_generator,scale,font_size,spacing):
     width,height = draw_img.size
     d = ImageDraw.Draw(draw_img)
     pixels = img.load()
-    f = ImageFont.truetype("courbd.ttf",font_size)
+    f = ImageFont.truetype("Fonts/courbd.ttf",font_size)
     d.fontmode = "1"
   
     for i in range(0,height):
